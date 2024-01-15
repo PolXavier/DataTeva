@@ -21,7 +21,6 @@ class TheClass extends React.Component  {
 
   render() {
     switch (this.state.page) {
-      const pageTitle = "TevaDada";
 	case "PersProj":
         return (
           <div>
@@ -47,8 +46,8 @@ class TheClass extends React.Component  {
               </div>
               <br />
             <div className="Mainest_main">
-              <h1>Inici</h1>
-            <h2>Servei personalitzat d'anàlisi de dades</h2>
+        <h1>TevaDada</h1>      
+            <h2>Benvingut a, TevaDada! El teu servei personalitzat d'anàlisi de dades</h2>
 			<h4>Em dic Pol i m'acabo de graduar de la carrera de bioinformàtica. Durant aquests 3 anys he adquirit habilitats analítiques i és per això que he decidit emprendre i oferir les meves capacitats a empreses que busquen recolectar dades, analitzar-les, extreure resultats i conclusions.</h4>
 			<h4>Els llenguatges de programació (R, Python i Bash) i la preparació d'informes són els meus punts més forts.</h4>
                 	<p>Vols veure alguns dels meus treballs i projectes que he dut a terme durant la meva carrera professional? Clica <a target="_blank" href="https://github.com/PolXavier?tab=repositories">aquí.</a> Et portarà als meus repositoris que tinc al GitHub.</p>
