@@ -45,20 +45,20 @@ class TheClass extends React.Component  {
 				<li>Investigació per fer vacunes.</li>
 				</ul>
 				<p>La meva especialització recau en l'analisi d'ADN ja que he treballat amb seqüències de material genètic mitocondrial. Si busques a algú experimentat en l'analisi estatístic poblacional, no dubtis en contactar-me!</p>
-				<img src="https://photos.fife.usercontent.google.com/pw/ABLVV86nQnJJ5qIVjEKPOdFlYDhryZrOUOioCqEN38doJVX1ZogdtshSkFZ4qw=w501-h291-s-no-gm?authuser=1">
+				<img src="https://photos.fife.usercontent.google.com/pw/ABLVV86nQnJJ5qIVjEKPOdFlYDhryZrOUOioCqEN38doJVX1ZogdtshSkFZ4qw=w501-h291-s-no-gm?authuser=1" />
 						</div>
 
 			<h3 onclick="toggleSection('data-collection')">Recollida de dades/anàlisi/informes/consultoria/assessoria</h3>
 			<div id="data-collection" class="hidden-section">
 				<p>Els meus interessos van més allà de la biologia, i són molt més diversos, com per exemple, el món de l'esport. Estic disposat a ampliar els meus coneixements treballant per altres tipus d'empreses i aprendre noves coses! Si ets una empresa que busca un perfil com el meu no dubtis en contactar-me!</p>
-				<img src="https://github.com/PolXavier/P-gina-web/blob/main/futbol.png">
+				<img src="https://github.com/PolXavier/P-gina-web/blob/main/futbol.png" />
 						</div>
 			<footer>
 			<p>Aquesta actuació està impulsada i subvencionada pel Departament d’Empresa i Treball i
 			cofinançada per la Unió Europea mitjançant el Fons Social Europeu Plus.</p>
 
-			<img src="https://github.com/PolXavier/P-gina-web/blob/main/CoFinancatUE_lateral.png">
-			<img src="https://github.com/PolXavier/P-gina-web/blob/main/Next%20Generation%2BGeneralitat.png">
+			<img src="https://github.com/PolXavier/P-gina-web/blob/main/CoFinancatUE_lateral.png" />
+			<img src="https://github.com/PolXavier/P-gina-web/blob/main/Next%20Generation%2BGeneralitat.png" />
 				</footer>
 	
             </div>
