@@ -48,14 +48,14 @@ h1, h2, h3, h4, p {
 }
 
 footer {
-  background-color: #345;
+  background-color: #430;
   color: white;
   padding: 10px;
   text-align: center;
 }
 
 footer img {
-  margin: 20px;
+  margin: 50px;
   width: 50px; /* Ajusta el ancho según tus necesidades */
   height: auto; /* Mantiene la proporción de la imagen */
 }
