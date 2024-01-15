@@ -24,7 +24,7 @@ class TheClass extends React.Component  {
       case "PersProj":
         return (
           <div>
-	   <div className="ButTitleContainer"
+	   <div className="ButTitleContainer">
             <div className="ButHeader">
                   <button onClick={this.handleButton} value="Inici">Inici</button>
                   <button onClick={this.handleButton} value="PersProj">Projectes</button>
