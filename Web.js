@@ -36,13 +36,13 @@ class TheClass extends React.Component  {
 		<div class="Projects">
                             <div class="Project">
                                 <a href={"https://github.com/PolXavier/Projecte-de-final-de-grau"} target="_blank" rel="noopener noreferrer">
-                                    <img src="tfg icono.jpg" class="WebLogo" />
+                                    <img src="tfg icono.png" class="WebLogo" />
                                     <p class="WebTitle">Projecte de final de grau</p>
                                 </a>
                             </div>
                             <div class="Project">
                                 <a href={"https://github.com/PolXavier/Inferint-la-funcio-d-una-proteina-desconeguda"} target="_blank" rel="noopener noreferrer">
-                                    <img src="proteina.jpg" class="WebLogo" />
+                                    <img src="proteina.png" class="WebLogo" />
                                     <p class="WebTitle">Inferint la funció d'una proteïna desconeguda</p>
                                 </a>
                             </div>
@@ -110,6 +110,9 @@ class TheClass extends React.Component  {
             <br />
             <div className="Mainest_main">
               <h1>Contacta'm!</h1>
+		<h4> Telèfon mòvil: +34 644 52 09 10 </h4>
+		<h4> Correu electrònic: c11militari@gmail.com </h4>
+		<h4> <a target="_blank" href="https://github.com/PolXavier?tab=repositories"> LinkedIn </a> </h4>
             </div>
           </div>
         );
