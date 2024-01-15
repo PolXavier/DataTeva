@@ -21,7 +21,8 @@ class TheClass extends React.Component  {
 
   render() {
     switch (this.state.page) {
-      case "PersProj":
+      const pageTitle = "TevaDada";
+	case "PersProj":
         return (
           <div>
             <div className="ButHeader">
