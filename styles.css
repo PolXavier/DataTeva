@@ -1,54 +1,48 @@
-/* Estilos generales */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f8f8f8;
-    color: #333;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-main {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
+.ButHeader {
+  background-color: #333;
+  padding: 10px;
+  text-align: center;
 }
 
-h2, h3, h4 {
-    color: #007BFF;
+.ButHeader button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-/* Estilos para los párrafos */
-p {
-    line-height: 1.5;
+.ButHeader button:hover {
+  background-color: #45a049;
 }
 
-/* Estilos para la imagen */
-img {
-    max-width: 100%;
-    height: auto;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    margin: 10px 0;
+.Mainest_main {
+  margin: 20px;
 }
 
-/* Estilos para las secciones desplegables */
 .hidden-section {
-    display: none;
-    margin-top: 10px;
-    margin
+  display: none;
 }
 
+h1, h2, h3, h4, p {
+  color: #333;
+}
 
-/* Estilos para el pie de página */
 footer {
-    background-color: #eee;
-    padding: 20px;
-    text-align: center;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
 }
 
-/* Estilos para las imágenes del pie de página */
 footer img {
-    max-width: 100%;
-    height: auto;
-    margin-top: 10px;
+  margin: 5px;
 }
