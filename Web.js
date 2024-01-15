@@ -92,8 +92,8 @@ class TheClass extends React.Component  {
 			<p>Aquesta actuació està impulsada i subvencionada pel Departament d’Empresa i Treball i
 			cofinançada per la Unió Europea mitjançant el Fons Social Europeu Plus.</p>
 
-			<img src="CoFinancatUE_lateral.png" />
-			<img src="Next Generation+Generalitat.png" />
+			<img src="CoFinancatUE_lateral.png" class="WebLogo" />
+			<img src="Next Generation+Generalitat.png" class="WebLogo" />
 				</footer>		
                            
             </div>
