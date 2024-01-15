@@ -1,7 +1,7 @@
 class TheClass extends React.Component  {
   constructor(props) {
     super(props);
-    this.state = { page: "Inici" };
+    this.state = { page: "Inici", title: "TevaDada" };
     this.handleButton = this.handleButton.bind(this);
     //this.renderContent = this.renderContent.bind(this);
     this.toggleSection = this.toggleSection.bind(this);
@@ -9,7 +9,8 @@ class TheClass extends React.Component  {
 
   handleButton(event){
     this.setState({
-      page: event.target.value
+      page: event.target.value,
+      title: event.target.innerText,
     });
   }
 
@@ -23,18 +24,19 @@ class TheClass extends React.Component  {
       case "PersProj":
         return (
           <div>
+	   <div className="ButTitleContainer"
             <div className="ButHeader">
                   <button onClick={this.handleButton} value="Inici">Inici</button>
                   <button onClick={this.handleButton} value="PersProj">Projectes</button>
                   <button onClick={this.handleButton} value="AcProjects">Academic Projects</button>
             </div>
+	    <h2>{this.state.title}</h2>
+        	</div>
             <br />
             <div className="Mainest_main"></div>
               <div>
                 <h1>Projectes</h1>
-
-	
-            </div>
+	    </div>
           </div>
         );
       case "Inici":
@@ -49,6 +51,7 @@ class TheClass extends React.Component  {
             <div className="Mainest_main">
               <h1>Inici</h1>
             <h2>Servei personalitzat d'anàlisi de dades</h2>
+			<h4>Em dic Pol i m'acabo de graduar de la carrera de bioinformàtica. Durant aquests 3 anys he adquirit habilitats analítiques i és per això que he decidit emprendre i oferir les meves capacitats a empreses que busquen recolectar dades, analitzar-les, extreure resultats i conclusions.</h4>
 			<h4>Els llenguatges de programació (R, Python i Bash) i la preparació d'informes són els meus punts més forts.</h4>
                 	<p>Vols veure alguns dels meus treballs i projectes que he dut a terme durant la meva carrera professional? Clica <a target="_blank" href="https://github.com/PolXavier?tab=repositories">aquí.</a> Et portarà als meus repositoris que tinc al GitHub.</p>
 		        <h3 onClick={() => this.toggleSection('bioinformatics')}>Bioinformàtica</h3>
