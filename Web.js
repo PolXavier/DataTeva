@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class TheClass extends Component {
+class TheClass extends React.Component  {
   constructor(props) {
     super(props);
     this.state = { page: "Inici" };
@@ -70,7 +70,7 @@ class TheClass extends Component {
         </div>
         <br />
         <div className="Mainest_main">
-          {this.renderContent()}
+          <renderContent />
         </div>
       </div>
     );
