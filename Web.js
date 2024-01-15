@@ -112,7 +112,7 @@ class TheClass extends React.Component  {
               <h1>Contacta'm!</h1>
 		<h4> Telèfon mòvil: +34 644 52 09 10 </h4>
 		<h4> Correu electrònic: c11militari@gmail.com </h4>
-		<h4> <a target="_blank" href="https://github.com/PolXavier?tab=repositories"> LinkedIn </a> </h4>
+		<h4> <a target="_blank" href="www.linkedin.com/in/pol-xavier-perez-rodriguez"> LinkedIn </a> </h4>
             </div>
           </div>
         );
