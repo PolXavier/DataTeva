@@ -36,13 +36,13 @@ class TheClass extends React.Component  {
 		<div class="Projects">
                             <div class="Project">
                                 <a href={"https://github.com/PolXavier/Projecte-de-final-de-grau"} target="_blank" rel="noopener noreferrer">
-                                    <img src="tfg icono" class="WebLogo" />
+                                    <img src="tfg icono.jpg" class="WebLogo" />
                                     <p class="WebTitle">Projecte de final de grau</p>
                                 </a>
                             </div>
                             <div class="Project">
                                 <a href={"https://github.com/PolXavier/Inferint-la-funcio-d-una-proteina-desconeguda"} target="_blank" rel="noopener noreferrer">
-                                    <img src="proteina" class="WebLogo" />
+                                    <img src="proteina.jpg" class="WebLogo" />
                                     <p class="WebTitle">Inferint la funció d'una proteïna desconeguda</p>
                                 </a>
                             </div>
@@ -85,7 +85,7 @@ class TheClass extends React.Component  {
 						</div>
 			<h3 onClick={() => this.toggleSection('data-collection')}>Recollida de dades/anàlisi/informes/consultoria/assessoria (clica a sobre per a desplegar més informació)</h3>
 			<div id="data-collection" class="hidden-section">
-				<p>Els meus interessos van més allà de la biologia, i són molt més diversos, com per exemple, el món de l'esport. Estic disposat a ampliar els meus coneixements treballant per altres tipus d'empreses i aprendre noves coses! Si ets una empresa que busca un perfil com el meu no dubtis en contactar-me!</p>
+				<p>Els meus interessos van més enllà de la biologia, i són molt més diversos, com per exemple, el món de l'esport. Estic disposat a ampliar els meus coneixements treballant per altres tipus d'empreses i aprendre noves coses! Si ets una empresa que busca un perfil com el meu no dubtis en contactar-me!</p>
 				<img src="futbol.png" />
 						</div>
 			<footer>
