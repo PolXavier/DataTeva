@@ -27,12 +27,32 @@ class TheClass extends React.Component  {
             <div className="ButHeader">
                   <button onClick={this.handleButton} value="Inici">Inici</button>
                   <button onClick={this.handleButton} value="PersProj">Projectes</button>
-                  <button onClick={this.handleButton} value="AcProjects">Academic Projects</button>
+                  <button onClick={this.handleButton} value="Contact">Contacta'm!</button>
         	</div>
             <br />
             <div className="Mainest_main"></div>
               <div>
                 <h1>Projectes</h1>
+		<div class="Projects">
+                            <div class="Project">
+                                <a href={"https://github.com/PolXavier/Projecte-de-final-de-grau"} target="_blank" rel="noopener noreferrer">
+                                    <img src="tfg icono" class="WebLogo" />
+                                    <p class="WebTitle">Projecte de final de grau</p>
+                                </a>
+                            </div>
+                            <div class="Project">
+                                <a href={"https://github.com/PolXavier/Inferint-la-funcio-d-una-proteina-desconeguda"} target="_blank" rel="noopener noreferrer">
+                                    <img src="proteina" class="WebLogo" />
+                                    <p class="WebTitle">Inferint la funció d'una proteïna desconeguda</p>
+                                </a>
+                            </div>
+                            <div class="Project">
+                                <a href={"https://github.com/PolXavier/TevaData"} target="_blank" rel="noopener noreferrer">
+                                    <img src="web.jpg" class="WebLogo" />
+                                    <p class="WebTitle">Codi d'aquesta web</p>
+                                </a>
+                            </div>
+                        </div>
 	    </div>
           </div>
         );
@@ -42,7 +62,7 @@ class TheClass extends React.Component  {
               <div className="ButHeader">
                 <button onClick={this.handleButton} value="Inici">Inici</button>
                 <button onClick={this.handleButton} value="PersProj">Projectes</button>
-                <button onClick={this.handleButton} value="AcProjects">Academic Projects</button>
+                <button onClick={this.handleButton} value="Contact">Contacta'm!</button>
               </div>
               <br />
             <div className="Mainest_main">
@@ -51,7 +71,7 @@ class TheClass extends React.Component  {
 			<h4>Em dic Pol i m'acabo de graduar de la carrera de bioinformàtica. Durant aquests 3 anys he adquirit habilitats analítiques i és per això que he decidit emprendre i oferir les meves capacitats a empreses que busquen recolectar dades, analitzar-les, extreure resultats i conclusions.</h4>
 			<h4>Els llenguatges de programació (R, Python i Bash) i la preparació d'informes són els meus punts més forts.</h4>
                 	<p>Vols veure alguns dels meus treballs i projectes que he dut a terme durant la meva carrera professional? Clica <a target="_blank" href="https://github.com/PolXavier?tab=repositories">aquí.</a> Et portarà als meus repositoris que tinc al GitHub.</p>
-		        <h3 onClick={() => this.toggleSection('bioinformatics')}>Bioinformàtica (clica a sobre per a desplegar més informació</h3>
+		        <h3 onClick={() => this.toggleSection('bioinformatics')}>Bioinformàtica (clica a sobre per a desplegar més informació)</h3>
 			<div id="bioinformatics" class="hidden-section">
 			<p>La bioinformàtica és una subdisciplina científica que implica l'ús de la informàtica per recopilar, emmagatzemar, analitzar i difondre dades i informació biològica (seqüències d'ADN, aminoàcids o anotacions sobre aquestes seqüències).</p>
 			<p>La bioinformàtica també abarca moltes més àrees, com per exemple, l'aprenentatge estatístic on es posen pràctica models de predicció, la visualització i base de dades, o, l'estudi de la genètica de poblacions. Algunes aplicacions i objectius són:</p>
@@ -79,17 +99,17 @@ class TheClass extends React.Component  {
             </div>
           </div>
         );
-      case "AcProjects":
+      case "Contact":
         return (
           <div>
             <div className="ButHeader">
                 <button onClick={this.handleButton} value="Inici">Inici</button>
                 <button onClick={this.handleButton} value="PersProj">Projectes</button>
-                <button onClick={this.handleButton} value="AcProjects">Academic Projects</button>
+                <button onClick={this.handleButton} value="Contact">Contacta'm!</button>
             </div>
             <br />
             <div className="Mainest_main">
-              <h1>Academic Projects</h1>
+              <h1>Contacta'm!</h1>
             </div>
           </div>
         );
