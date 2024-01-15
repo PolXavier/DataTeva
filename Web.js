@@ -25,6 +25,15 @@ class TheClass extends Component {
             {/* Contenido para la página "Projectes" */}
             <h1>Projectes</h1>
             {/* ... Otro contenido ... */}
+            
+            {/* ... Otro contenido ... */}
+          </div>
+        );
+      case "Inici":
+        return (
+          <div>
+            {/* Contenido para la página "Inici" */}
+            <h1>Inici</h1>
             <h2>Servei personalitzat d'anàlisi de dades</h2>
             {/* ... Otro contenido ... */}
             <h3 onClick={() => this.toggleSection('bioinformatics')}>Bioinformàtica</h3>
@@ -36,15 +45,6 @@ class TheClass extends Component {
             <div id="data-collection" className="hidden-section">
               {/* Contenido de la sección */}
             </div>
-            {/* ... Otro contenido ... */}
-          </div>
-        );
-      case "Inici":
-        return (
-          <div>
-            {/* Contenido para la página "Inici" */}
-            <h1>Inici</h1>
-            {/* ... Otro contenido ... */}
           </div>
         );
       case "AcProjects":
