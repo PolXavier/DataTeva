@@ -50,8 +50,8 @@ h1, h2, h3, h4, p {
 .WebLogo{
   transform: translate(0, 12%);
   background-color: white;
-  width: 86%;
-  height 70%;
+  width: 50%;
+  height 50%;
 }
 
 
