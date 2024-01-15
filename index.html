@@ -1,16 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="{% static 'styles.css' %}">
-        <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
-        <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
-        <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
-        <title>TevaData</title>
-        <script type="text/babel" src="{% static 'Web.js' %}"></script>
-    </head>
-    <body>
-        <div id="NeededElement" style="min-width: 100%; min-height: 100%; max-width: 100%; max-height: 100%;"></div>
-    </body>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>React App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div id="root"></div>
+
+  <!-- React library -->
+  <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+
+  <!-- Your React component -->
+  <script type="module" src="Web.js"></script>
+
+  <script>
+    // Mount your React component on the specified element
+    ReactDOM.render(React.createElement(TheClass), document.getElementById("root"));
+  </script>
+</body>
+
 </html>
+
