@@ -1,7 +1,7 @@
 class TheClass extends React.Component  {
   constructor(props) {
     super(props);
-    this.state = { page: "Inici", title: "TevaDada" };
+    this.state = { page: "Inici" };
     this.handleButton = this.handleButton.bind(this);
     //this.renderContent = this.renderContent.bind(this);
     this.toggleSection = this.toggleSection.bind(this);
@@ -24,13 +24,10 @@ class TheClass extends React.Component  {
       case "PersProj":
         return (
           <div>
-	   <div className="ButTitleContainer">
             <div className="ButHeader">
                   <button onClick={this.handleButton} value="Inici">Inici</button>
                   <button onClick={this.handleButton} value="PersProj">Projectes</button>
                   <button onClick={this.handleButton} value="AcProjects">Academic Projects</button>
-            </div>
-	    <h2>{this.state.title}</h2>
         	</div>
             <br />
             <div className="Mainest_main"></div>
