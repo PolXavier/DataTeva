@@ -22,7 +22,7 @@ h2 {
 
 
 .ButHeader button {
-  background-color: #F5EEDD;
+  background-color: #4CAF50;
   color: white;
   padding: 10px 20px;
   margin: 5px;
@@ -48,15 +48,15 @@ h1, h2, h3, h4, p {
 }
 
 footer {
-  background-color: #375;
+  background-color: #F5EEDD;
   color: white;
   padding: 10px;
   text-align: center;
 }
 
 footer img {
-  margin: 50px;
-  width: 300px; /* Ajusta el ancho según tus necesidades */
+  margin: 140px;
+  width: 500px; /* Ajusta el ancho según tus necesidades */
   height: auto; /* Mantiene la proporción de la imagen */
 }
 
