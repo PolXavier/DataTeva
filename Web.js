@@ -74,7 +74,7 @@ class TheClass extends React.Component  {
         <div className="Mainest_main">      
             <h2>Benvingut/da a, DataTeva! El teu servei personalitzat d'anàlisi de dades</h2>
             <br />
-      <h4>Sóc en Pol, graduat de bioinformàtica a l'ESCI-UPF, amb excel·lents capacitats i habilitats analítiques. Es per aquest motiu que he decidit emprendre i oferir les meves capacitats a empreses que busquen recol·lectar dades, analitzar-les, extreure resultats i conclusions.</h4>
+      <h4>Sóc en Pol, graduat en bioinformàtica a l'ESCI-UPF, amb excel·lents habilitats analítiques. És per aquest motiu que he decidit emprendre i oferir les meves capacitats a empreses que busquen recol·lectar dades, analitzar-les, extreure resultats i conclusions.</h4>
 			<h4>Els llenguatges de programació (R, Python i Bash) i la preparació d'informes són els meus punts més forts.</h4>
                 	<p>Vols veure alguns dels meus treballs i projectes que he dut a terme durant la meva carrera professional? Clica <a target="_blank" href="https://github.com/PolXavier?tab=repositories">aquí.</a> Et portarà als meus repositoris que tinc al GitHub.</p>
 		        <br />
