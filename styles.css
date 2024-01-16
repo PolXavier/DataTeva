@@ -1,7 +1,33 @@
+/*
+@keyframes backgroundAnimation {
+  0% {background-image: url("https://www.publicdomainpictures.net/pictures/50000/velka/dna.jpg");}
+  50% {background-image: url("https://www.publicdomainpictures.net/pictures/370000/velka/stock-candle-chart.jpg");}
+  100%{background-image: url("https://www.publicdomainpictures.net/pictures/280000/velka/hintergrund-1542000578aJX.jpg");}
+}
+*/
+
+@keyframes Anim{
+  from{background-position: 0 0;}
+  to{background-position: -10000px, 0;}
+}
+
+html{
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background-size: 100%, 100%;
+  background-image: url("https://www.publicdomainpictures.net/pictures/10000/velka/849-1234251683JKYT.jpg");
+  background-position: 0 0;
+  background-repeat: repeat;
+  animation-name: Anim;
+  animation-duration: 80s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 
 .ButTitleContainer {
@@ -12,17 +38,13 @@ body {
   background-color: #333;
   padding: 10px;
   text-align: center;
-  display: inline-block; /* Para que los elementos se muestren en línea */
+  /*display: inline-block;*/ /* Para que los elementos se muestren en línea */
+  min-width: 100%;
+  max-height: 10%;
 }
-
-h2 {
-  color: #333;
-  margin-top: 10px; /* Espacio entre los botones y el título */
-}
-
 
 .ButHeader button {
-  background-color: #4CAF50;
+  background-color: red;
   color: white;
   padding: 10px 20px;
   margin: 5px;
@@ -32,39 +54,129 @@ h2 {
 }
 
 .ButHeader button:hover {
-  background-color: #45a049;
+  background-color: red;
+  border-color: white;
+  border: solid;
+  border-top: 1% solid ;
+  border-bottom: 1% solid;
+  margin: -1% 0;
+  font-weight: bold;
 }
 
 .Mainest_main {
-  margin: 20px;
+  /*margin: 20px;*/
+  text-align: center;
+  background-color: black;
+  padding: 4%;
 }
 
 .hidden-section {
   display: none;
 }
 
+.hidden-section:hover{
+  cursor: pointer;
+}
+
 h1, h2, h3, h4, p {
-  color: #333;
+  /*color: #333;*/
+  /*text-align: center;*/
+  color: white;
+}
+
+.WebTitle{
+  font-size: large; 
+  font-weight: bold;
+  width: 100%;
+  color: white
 }
 
 .WebLogo{
   transform: translate(0, 12%);
-  background-color: white;
-  width: 50%;
-  height 50%;
+  background-color: white; 
+  width: 60%; 
+  height: 60%;
+  margin-bottom: 6%;
+  border-radius: 9%;
 }
 
 
-footer {
-  background-color: #F5EEDD;
-  color: white;
-  padding: 10px;
+.footer {
+  padding: 2%;
   text-align: center;
+  height: 8%; 
+  color: black; 
+  width: 100%;
+  background-color: red;
+  font-weight: bold;
 }
 
-footer img {
-  margin: 140px;
-  width: 500px; /* Ajusta el ancho según tus necesidades */
-  height: auto; /* Mantiene la proporción de la imagen */
+.footer img {
+  margin-right: 1%;
+  margin-left: 1%;
+  width: 20%;
+  height: 10%;
+  border-radius: 0%;
 }
 
+.Project{
+  max-height: 34vh;
+  min-height: 34vh;
+  max-width: 28vw;
+  min-width: 28vw;
+  background-color: black;
+  text-align: center;
+  font-size: 4vw;
+  text-decoration: none;
+}
+
+.Project a{
+  text-decoration: none;
+}
+
+.Project:hover{
+  border-color: red;
+  border-style: solid;
+  color: red;
+}
+
+.Project:hover > a{
+  background-color: black;
+}
+
+.Projects{
+  min-width: 80%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+a{
+  color: red;
+}
+a:visited{
+  color: red;
+}
+
+a:hover{
+  /*font-weight: bold;*/
+  background-color: white;
+}
+
+.Extend{
+  background-color: red;
+  color:white;
+  padding: 0.5%;
+  border-radius: 9%;
+  border-color: white;
+  border-style: solid;
+  margin-left: 1%;
+}
+
+.Extend:hover{
+  border-color: red;
+  background-color: white;
+  color: red;
+  cursor: pointer;
+}
