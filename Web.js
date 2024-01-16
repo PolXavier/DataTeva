@@ -48,7 +48,7 @@ class TheClass extends React.Component  {
                         </a>
                       </div>
                       <div class="Project">
-                        <a href={"https://github.com/PolXavier/TevaData"} target="_blank" rel="noopener noreferrer">
+                        <a href={"https://github.com/PolXavier/DataTeva"} target="_blank" rel="noopener noreferrer">
                           <img src="web.jpg" class="WebLogo" />
                           <br />
                           <p class="WebTitle">Codi d'aquesta web</p>
@@ -72,9 +72,9 @@ class TheClass extends React.Component  {
             <img src="Logo.png" style={{margin: "6% auto", height: "20%", width: "20%"}} />
           </div>
         <div className="Mainest_main">      
-            <h2>Benvingut/da a, TevaDada! El teu servei personalitzat d'anàlisi de dades</h2>
+            <h2>Benvingut/da a, DataTeva! El teu servei personalitzat d'anàlisi de dades</h2>
             <br />
-      <h4>Em dic Pol i m'acabo de graduar de la carrera de bioinformàtica. Durant aquests 3 anys he adquirit habilitats analítiques i és per això que he decidit emprendre i oferir les meves capacitats a empreses que busquen recolectar dades, analitzar-les, extreure resultats i conclusions.</h4>
+      <h4>Sóc en Pol, graduat de bioinformàtica a l'ESCI-UPF, amb excel·lents capacitats i habilitats analítiques. Es per aquest motiu que he decidit emprendre i oferir les meves capacitats a empreses que busquen recol·lectar dades, analitzar-les, extreure resultats i conclusions.</h4>
 			<h4>Els llenguatges de programació (R, Python i Bash) i la preparació d'informes són els meus punts més forts.</h4>
                 	<p>Vols veure alguns dels meus treballs i projectes que he dut a terme durant la meva carrera professional? Clica <a target="_blank" href="https://github.com/PolXavier?tab=repositories">aquí.</a> Et portarà als meus repositoris que tinc al GitHub.</p>
 		        <br />
