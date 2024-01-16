@@ -73,7 +73,8 @@ class TheClass extends React.Component  {
           </div>
         <div className="Mainest_main">      
             <h2>Benvingut/da a, TevaDada! El teu servei personalitzat d'anàlisi de dades</h2>
-			<h4>Em dic Pol i m'acabo de graduar de la carrera de bioinformàtica. Durant aquests 3 anys he adquirit habilitats analítiques i és per això que he decidit emprendre i oferir les meves capacitats a empreses que busquen recolectar dades, analitzar-les, extreure resultats i conclusions.</h4>
+            <br />
+      <h4>Em dic Pol i m'acabo de graduar de la carrera de bioinformàtica. Durant aquests 3 anys he adquirit habilitats analítiques i és per això que he decidit emprendre i oferir les meves capacitats a empreses que busquen recolectar dades, analitzar-les, extreure resultats i conclusions.</h4>
 			<h4>Els llenguatges de programació (R, Python i Bash) i la preparació d'informes són els meus punts més forts.</h4>
                 	<p>Vols veure alguns dels meus treballs i projectes que he dut a terme durant la meva carrera professional? Clica <a target="_blank" href="https://github.com/PolXavier?tab=repositories">aquí.</a> Et portarà als meus repositoris que tinc al GitHub.</p>
 		        <br />
@@ -85,7 +86,7 @@ class TheClass extends React.Component  {
 			<div id="bioinformatics" class="hidden-section">
 			<p>La bioinformàtica és una subdisciplina científica que implica l'ús de la informàtica per recopilar, emmagatzemar, analitzar i difondre dades i informació biològica (seqüències d'ADN, aminoàcids o anotacions sobre aquestes seqüències).</p>
 			<p>La bioinformàtica també abarca moltes més àrees, com per exemple, l'aprenentatge estatístic on es posen pràctica models de predicció, la visualització i base de dades, o, l'estudi de la genètica de poblacions. Algunes aplicacions i objectius són:</p>
-				<ul>
+				<ul style={{color:"white", textAlign: "left", margin:"auto", width: "40%"}}>
 				<li>Augmentar la comprensió de la salut i de malalties.</li>
 				<li>Aplicacions en l'agricultura per fer els cultius més resistents i eficients (agrogenòmica).</li>
 				<li>Investigació per fer vacunes.</li>
