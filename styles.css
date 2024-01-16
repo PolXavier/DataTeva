@@ -180,3 +180,7 @@ a:hover{
   color: red;
   cursor: pointer;
 }
+
+img{
+  max-width: 100%;
+}
