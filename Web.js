@@ -119,7 +119,7 @@ class TheClass extends React.Component  {
             cofinançada per la Unió Europea mitjançant el Fons Social Europeu Plus.</p>
 
             <img src="CoFinancatUE_lateral.png" class="WebLogo" />
-            <img src="Next Generation+Generalitat.png" class="WebLogo" />
+            <img src="empresa.jpg" class="WebLogo" />
 		    </div>
           </div>
         );
